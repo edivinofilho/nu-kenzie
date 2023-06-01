@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { InputDefaultLabels } from "../../styles/input";
+import {InputDefaultLabels} from "../../styles/Input";
 
 export const FormWrapper = styled.div`
   width: 100%;

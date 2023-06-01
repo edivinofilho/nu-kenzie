@@ -1,5 +1,5 @@
 import { StyleForm, StyledSelect, StyledSpan } from "./style"
-import { StyledInputs, StyledLabels } from "../../styles/input"
+import { StyledInputs, StyledLabels } from "../../styles/Input"
 import { StyledFormButton } from "../../styles/FormButton"
 
 import { v4 as uuidv4 } from "uuid"

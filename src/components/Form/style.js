@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import {InputDefaultLabels} from "../../styles/Input";
 
 export const FormWrapper = styled.div`
   width: 100%;
@@ -46,7 +45,10 @@ export const StyledSelect = styled.select`
 
   padding: 10px;
 
-  ${InputDefaultLabels}
+  font-family: 'Inter', sans-serif;
+  font-size: .75rem;
+  font-weight: 400;
+  line-height: 1.375rem;
 `
 export const StyledSpan = styled.span`
   font-size: .75rem;

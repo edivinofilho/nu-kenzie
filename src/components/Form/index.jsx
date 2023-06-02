@@ -5,7 +5,7 @@ import { StyledFormButton } from "../../styles/FormButton"
 import { v4 as uuidv4 } from "uuid"
 
 export const Form = ({ formData, setFormData, formTransactions, formSetTransactions }) => {
-  const { description, amount, entryType } = formData;
+  const { description, amount, entryType } = formData
 
   const handleEntryTypeChange = (event) => {
     setFormData({ ...formData, entryType: event.target.value })
@@ -18,14 +18,14 @@ export const Form = ({ formData, setFormData, formTransactions, formSetTransacti
   const submit = (event) => {
     event.preventDefault()
 
-    const transactionId = uuidv4();
+    const transactionId = uuidv4()
 
     const newTransaction = {
       id: transactionId,
       description: description,
       amount: amount,
       entryType: entryType
-    };
+    }
 
     addTransaction(newTransaction)
     
